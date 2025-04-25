@@ -35,7 +35,7 @@ jobs:
             -var="db_username=${{ secrets.DOCDB_USERNAME }}" \
             -var="db_password=${{ secrets.DOCDB_PASSWORD }}" \
             -var="db_name=${{ secrets.DOCDB_DBNAME }}" \
-            -var="db_port=${{ secrets.DOCDB_DOCDB_DBPORT }}" \
+            -var="db_port=${{ secrets.DOCDB_DBPORT }}" \
             -var="db_endpoint=${{ secrets.DOCDB_CLUSTER_ENDPOINT_PED }}" \
             -var="pagseguro_token=${{ secrets.PAGSEGURO_TOKEN }}"
           
